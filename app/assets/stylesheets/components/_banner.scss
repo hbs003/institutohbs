@@ -1,0 +1,58 @@
+.banner-green {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 95vh;
+}
+
+.logo-banner {
+  opacity: 0.8;
+  height: 85vh;
+  width: 40vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 50px;
+}
+
+.header-title {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.page-description {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header-description {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+  margin-left: 5%;
+  height: 60vh;
+  width: 50vw;
+}
+
+.white-vector {
+  position: absolute;
+  height: 20vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 0px;
+}
+
+

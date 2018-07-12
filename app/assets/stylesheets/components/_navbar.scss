@@ -12,7 +12,8 @@
 
 /* Logo */
 .navbar-wagon-brand img {
-  height: 50px;
+  height: 40px;
+  background-color: white;
 }
 
 /* User Avatar */
@@ -74,4 +75,22 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.symbol{
+display:flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+width: 150px;
+color:green;
+}
+
+.testing {
+  font-family: 'Coda Caption', sans-serif;
+  color: #85C913;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+
 }
