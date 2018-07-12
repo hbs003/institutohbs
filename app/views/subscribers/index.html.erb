@@ -1,0 +1,11 @@
+<% if cookies[:saved_subscriber] %>
+  <p>Obrigado por se cadastrar. Você acaba de dar o primeiro passo rumo a sua liberdade financeira.</p>
+<% else %>
+  <h2>Cadastre para receber os nossos novos artigos.</h2>
+  <%= form_for @subscriber do |f| %>
+    <%= f.email_field :email, placeholder: "Email" %>
+    <hr>
+    <%= f.submit "Inscrever", class: 'btn-medium' %>
+  <% end %>
+<% end %>
+
